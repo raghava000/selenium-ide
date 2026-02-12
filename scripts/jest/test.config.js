@@ -8,6 +8,8 @@ class MutationObserver {
     this.observe = jest.fn()
     this.disconnect = jest.fn()
   }
+  ##something
+  
 }
 
 window.MutationObserver = MutationObserver
